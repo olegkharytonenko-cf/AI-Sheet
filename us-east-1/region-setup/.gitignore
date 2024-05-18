@@ -1,0 +1,41 @@
+# IDE
+.idea
+.idea/*
+.vscode
+.vscode/*
+*.iml
+.DS_Store
+
+workspace.code-workspace
+
+*.pub
+*.ppk.DS_Store
+
+**.terraform
+*.lock.hcl
+*.tfstate
+*.tfstate.backup
+*.terraform.tfstate.lock.info
+
+# Ignore Infracost
+**.infracost
+
+#Ignore AAP files
+ansible-automation-platform-*.tar.gz
+
+#Ignore zipped files
+*.tgz
+*.zip
+
+#Ignore Installers
+*.exe
+*.msi
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Checkov files
+.external_modules
+.external_modules/*
